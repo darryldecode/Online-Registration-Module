@@ -502,26 +502,6 @@ class EleModel {
     }
 
     /**
-     * @usage use to verify nonce
-     * @param $input
-     * @return bool
-     * @since 1.0
-     */
-    public static function nonceIsVerified($input){
-
-        $entry = array();
-        foreach( $input->entry_data as $k => $v ){
-            $entry[$v->name] = strip_tags( stripslashes( $v->value ) );
-        }
-        if ( !wp_verify_nonce( $entry['ele_nonce'], "ele_nonce")) {
-            return false;
-        } else {
-            return true;
-        }
-
-    }
-
-    /**
      * @usage get currency settings in database (helper)
      * @return mixed
      */
