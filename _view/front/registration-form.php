@@ -307,6 +307,7 @@ function ele_front_view_registration_form(){
                         <input type="hidden" name="cancel_return" value="http://philtoday.net/paypal/cancel.php">
                         <input type="hidden" name="rm" value="2">
                         <input type="hidden" name="notify_url" value="<?php echo $settings['notify_url']; ?>">
+                        <input type="hidden" name="ele_nonce" value="<?php echo wp_create_nonce("ele_nonce"); ?>"  />
                     </td>
                 </tr>
             </table>
