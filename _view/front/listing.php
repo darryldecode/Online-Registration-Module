@@ -23,7 +23,7 @@ function ele_front_display_listing(){
 
 
                 <table class="table" id="ele-listing-table">
-                    <tr ng-repeat="registrant in registrants | filter:search">
+                    <tr ng-repeat="registrant in registrants | filter:search track by $index">
                         <td>
                             <table class="tbl-team-info">
                                 <tr>
@@ -37,6 +37,13 @@ function ele_front_display_listing(){
                                 <tr>
                                     <td>Category Name:</td>
                                     <td>{{registrant.ele_entry_category_name}}</td>
+                                </tr>
+                                <tr>
+                                    <td>Status:</td>
+                                    <td>
+                                        <span ng-show="(registrant.ele_entry_status=='1')" class="label label-success">Confirmed</span>
+                                        <span ng-show="(registrant.ele_entry_status=='0')" class="label label-warning">Unconfirmed</span>
+                                    </td>
                                 </tr>
                             </table>
                         </td>

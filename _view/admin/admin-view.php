@@ -11,7 +11,7 @@ function ele_online_registration(){
         <div class="row">
 
             <div class="col-lg-6">
-                <h3 class="ele-title"><b>ONLINE REGISTRATION Settings</b></h3>
+                <h3 class="ele-title"><b>ONLINE REGISTRATION ADMIN PANEL</b></h3>
             </div>
 
             <div class="col-lg-3">
@@ -122,6 +122,13 @@ function ele_online_registration(){
                                 <tr>
                                     <td>TXN ID:</td>
                                     <td>{{registrant.ele_entry_txn_id}}</td>
+                                </tr>
+                                <tr>
+                                    <td>PACKAGE TYPE:</td>
+                                    <td>
+                                        <span ng-show="(registrant.ele_entry_package_type=='regular_package')">Regular Package</span>
+                                        <span ng-show="(registrant.ele_entry_package_type=='traveller_package')">Traveller Package</span>
+                                    </td>
                                 </tr>
                             </table>
                         </td>
