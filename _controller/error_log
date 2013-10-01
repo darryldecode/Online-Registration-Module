@@ -1,0 +1,11 @@
+[24-Sep-2013 02:45:14] PHP Warning:  require_once(ELE_PATHclasses/database.class.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/embracel/public_html/wp-content/themes/EMBRACELIFEEVENTS/registration/ajax/ajax.php on line 3
+[24-Sep-2013 02:45:14] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ELE_PATHclasses/database.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/embracel/public_html/wp-content/themes/EMBRACELIFEEVENTS/registration/ajax/ajax.php on line 3
+[24-Sep-2013 02:47:11] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'DB_HOST' (25)' in /home/embracel/public_html/wp-content/themes/EMBRACELIFEEVENTS/registration/classes/database.class.php:77
+Stack trace:
+#0 /home/embracel/public_html/wp-content/themes/EMBRACELIFEEVENTS/registration/classes/database.class.php(77): PDO->__construct('mysql:host=DB_H...', 'DB_USER', 'DB_PASSWORD')
+#1 /home/embracel/public_html/wp-content/themes/EMBRACELIFEEVENTS/registration/ajax/ajax.php(17): Connection->initiateConnection()
+#2 /home/embracel/public_html/wp-content/themes/EMBRACELIFEEVENTS/registration/ajax/ajax.php(9): ele_get_registrants(Object(stdClass))
+#3 {main}
+  thrown in /home/embracel/public_html/wp-content/themes/EMBRACELIFEEVENTS/registration/classes/database.class.php on line 77
+[24-Sep-2013 05:28:34] PHP Warning:  require_once(ELE_PATHclasses/database.class.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/embracel/public_html/wp-content/themes/EMBRACELIFEEVENTS/registration/ajax/ajax.php on line 3
+[24-Sep-2013 05:28:34] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ELE_PATHclasses/database.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/embracel/public_html/wp-content/themes/EMBRACELIFEEVENTS/registration/ajax/ajax.php on line 3

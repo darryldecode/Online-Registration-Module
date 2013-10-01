@@ -1,0 +1,75 @@
+.ui-widget-content {
+    background: #fff;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: none;
+}
+
+.ui-widget-header {
+    background: none repeat scroll 0 0 #A4B2BF;
+    border: medium none;
+}
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+    color: grey;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #1C94C4;
+}
+
+#regFormTabbing table {
+    width: 100%;
+}
+
+#regFormTabbing table td {
+    padding: 5px 10px;
+}
+
+#regFormTabbing table td:first-child{
+    width: 30%;
+}
+
+#general_fields_wrapper {
+    padding: 5px;
+    margin: 10px;
+    border: 1px dotted darkslategrey;
+    border-radius: 5px;
+}
+
+#regFormAjax {
+    display: none;
+}
+
+#regFormAjax img {
+    border: none;
+    width: 25px;
+    margin-left: 10px;
+}
+
+#ele-listing-table {
+    display: none;
+}
+
+#ele-listing-table tr td {
+    background-color: #F1F1F1;
+}
+
+#ele-listing-table tr td table tr td {
+    padding: 3px;
+    border: none;
+    font-size: 12px;
+}
+
+#ele-listing-table tr td table tr td:first-child {
+    font-weight: bold;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+#wuField {
+    display:none;
+}

@@ -1,0 +1,87 @@
+
+
+h1.ele-title {
+    margin-bottom: 20px;
+    background-image: url('../img/pencil-icon.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding-bottom: 12px;
+}
+
+.ele-admin-wrapper {
+    margin-right: 50px;
+}
+
+.ele-admin-wrapper input {
+    padding: 0;
+}
+
+.ele-admin-wrapper select {
+    padding: 0;
+    height: auto;
+}
+
+.ele-admin-wrapper span {
+    font-size: 12px;
+}
+
+.ele-admin-wrapper .ele-data-table {
+    width: 100%;
+}
+
+.ele-admin-wrapper .ele-data-table th {
+    font-size: 12px;
+    background-color: #c0c0c0;
+}
+
+.filter-holder {
+    margin-bottom: 10px;
+}
+
+.tbl-data-holder {
+    display: none;
+}
+
+table.ele-data-table tr td {
+    background-color: #F1F1F1;
+}
+
+table.ele-data-table tr td table tr td {
+    padding: 3px;
+    border: none;
+    font-size: 12px;
+}
+
+table.ele-data-table tr td table tr td:first-child {
+    font-weight: bold;
+}
+
+.total-entries-holder {
+    padding: 5px 10px;
+}
+
+.adminAjaxLoader {
+    display: none;
+}
+
+.settings-holder {
+    display: none;
+}
+
+#settings th {
+    background-color: #c0c0c0;
+}
+
+#settings td {
+    padding: 10px;
+}
+
+#settings th h3 {
+    color: #fff;
+    margin: 0;
+    font-weight: bold;
+}
+
+.table-app-info tr td {
+    font-size: 10px;
+}

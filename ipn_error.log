@@ -1,0 +1,28 @@
+
+[29-Sep-2013 13:12:35] PHP Warning:  file_get_contents(ipn_errors.log) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/embracel/public_html/wp-content/plugins/registration-module/ipn.php on line 24
+Paypal URL:ssl://www.paypal.comPaypal URL:ssl://www.paypal.com
+Mode:
+Paypal URL:ssl://www.sandbox.paypal.com
+Mode:sandbox
+Paypal URL:ssl://www.paypal.com
+Mode:live
+Time Log: 29-September-2013 1:24:14
+Payment Successful - TXN ID: 8L3074361D912120V
+Time Log: 30-September-2013 2:31:40
+Payment Successful - TXN ID: 48V82151R07980536
+Time Log: 30-September-2013 2:55:42
+Payment Successful - TXN ID: 8CU5158095883263E
+Time Log: 30-September-2013 4:01:22
+Payment Successful - TXN ID: 1VG74078NP7893519
+Time Log: 30-September-2013 4:15:38
+Payment Successful - TXN ID: 4GH42354KS214825C
+package Price: 28000Time Log: 30-September-2013 8:46:23
+Reciever email not match!
+Time Log: 30-September-2013 11:55:29
+Reciever email not match!
+Time Log: 30-September-2013 11:56:35
+Transaction ID Already Exist!
+Time Log: 30-September-2013 11:57:21
+Currency not match!
+Time Log: 30-September-2013 12:14:41
+Payment Successful - TXN ID: 20008557V6089204A
