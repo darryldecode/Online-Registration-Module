@@ -42,7 +42,7 @@
       <file leaf-file-name="registration-form.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_view/front/registration-form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="269" column="89" selection-start="11541" selection-end="11554" vertical-scroll-proportion="-0.65384614">
+            <state line="269" column="89" selection-start="11541" selection-end="11554" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -51,16 +51,16 @@
       <file leaf-file-name="ajax.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_controller/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="26" selection-start="1328" selection-end="1328" vertical-scroll-proportion="-0.65384614">
+            <state line="65" column="26" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app-front.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app-front.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app-front.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="143" column="33" selection-start="4170" selection-end="4170" vertical-scroll-proportion="0.46258503">
+            <state line="143" column="33" selection-start="4170" selection-end="4170" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1380727553549" expanded="false" signature="3860:3896" placeholder="..." />
                 <marker date="1380727553549" expanded="false" signature="4585:4621" placeholder="..." />
@@ -70,10 +70,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="433" column="53" selection-start="11655" selection-end="11655" vertical-scroll-proportion="0.2795341">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="admin-view.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_view/admin/admin-view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="58" selection-start="5228" selection-end="5228" vertical-scroll-proportion="-7.730769">
+            <state line="122" column="58" selection-start="5228" selection-end="5228" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,7 +91,7 @@
       <file leaf-file-name="install.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/install.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="34" selection-start="844" selection-end="867" vertical-scroll-proportion="-10.5">
+            <state line="23" column="34" selection-start="844" selection-end="867" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -101,7 +110,6 @@
         <option value="$PROJECT_DIR$/resources/css/style.css" />
         <option value="$PROJECT_DIR$/ipn_error.log" />
         <option value="$PROJECT_DIR$/registration.php" />
-        <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/_view/admin/admin-settings-view.php" />
         <option value="$PROJECT_DIR$/ipn.php" />
         <option value="$PROJECT_DIR$/classes/paymentprocess.class.php" />
@@ -113,6 +121,7 @@
         <option value="$PROJECT_DIR$/_model/model.php" />
         <option value="$PROJECT_DIR$/_view/admin/admin-view.php" />
         <option value="$PROJECT_DIR$/app/app-front.js" />
+        <option value="$PROJECT_DIR$/app/app.js" />
       </list>
     </option>
   </component>
@@ -338,7 +347,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30445153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3100159" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -433,11 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="238" column="13" selection-start="6366" selection-end="6366" vertical-scroll-proportion="6.7321134" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/paymentprocess.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="17" selection-start="253" selection-end="253" vertical-scroll-proportion="0.27224198" />
@@ -465,14 +469,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_view/front/registration-form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="269" column="89" selection-start="11541" selection-end="11554" vertical-scroll-proportion="-0.65384614">
+        <state line="269" column="89" selection-start="11541" selection-end="11554" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_controller/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="26" selection-start="1328" selection-end="1328" vertical-scroll-proportion="-0.65384614">
+        <state line="65" column="26" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -493,26 +497,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/install.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="34" selection-start="844" selection-end="867" vertical-scroll-proportion="-10.5">
+        <state line="23" column="34" selection-start="844" selection-end="867" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_view/admin/admin-view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="58" selection-start="5228" selection-end="5228" vertical-scroll-proportion="-7.730769">
+        <state line="122" column="58" selection-start="5228" selection-end="5228" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app-front.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="33" selection-start="4170" selection-end="4170" vertical-scroll-proportion="0.46258503">
+        <state line="143" column="33" selection-start="4170" selection-end="4170" vertical-scroll-proportion="0.0">
           <folding>
             <marker date="1380727553549" expanded="false" signature="3860:3896" placeholder="..." />
             <marker date="1380727553549" expanded="false" signature="4585:4621" placeholder="..." />
             <marker date="1380727553549" expanded="false" signature="4833:4869" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="433" column="53" selection-start="11655" selection-end="11655" vertical-scroll-proportion="0.2795341">
+          <folding />
         </state>
       </provider>
     </entry>

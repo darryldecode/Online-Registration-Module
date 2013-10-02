@@ -428,7 +428,7 @@ eleAPP.factory('eleFactory', function($http){
 
 /*
  * -------------------------------------------------------------------------------------------------
- * APP MAIN FACTORY
+ * APP SETTINGS FACTORY
  * -------------------------------------------------------------------------------------------------
  */
 eleAPP.factory('eleSettingsFactory', function($http){
