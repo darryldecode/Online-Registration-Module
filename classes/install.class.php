@@ -20,6 +20,8 @@ class EleInstall {
           `ele_entry_package_type` VARCHAR(45) NULL ,
           `ele_entry_status` INT NULL DEFAULT 0 ,
           `ele_entry_registration_date` VARCHAR(45) NULL ,
+          `ele_entry_need_bike` VARCHAR(45) NULL ,
+          `ele_entry_accommodation` VARCHAR(45) NULL ,
           PRIMARY KEY (`ele_entry_id`) )
         ENGINE = InnoDB;',
 

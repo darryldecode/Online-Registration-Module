@@ -113,6 +113,27 @@ function ele_online_registration(){
                                     <td>{{registrant.ele_entry_email}}</td>
                                 </tr>
                                 <tr>
+                                    <td>PACKAGE TYPE:</td>
+                                    <td>
+                                        <span ng-show="(registrant.ele_entry_package_type=='regular_package')">Regular Package</span>
+                                        <span ng-show="(registrant.ele_entry_package_type=='traveller_package')">Traveller Package</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Need a Bike?:</td>
+                                    <td>
+                                        <span ng-show="(registrant.ele_entry_need_bike=='yes')">Yes</span>
+                                        <span ng-show="(registrant.ele_entry_need_bike=='no')">No</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Need a Accomodation?:</td>
+                                    <td>
+                                        <span ng-show="(registrant.ele_entry_accommodation=='yes')">Yes</span>
+                                        <span ng-show="(registrant.ele_entry_accommodation=='no')">No</span>
+                                    </td>
+                                </tr>
+                                <tr>
                                     <td colspan="2"><span class="label label-info"><i>Transaction INFO:</i></span></td>
                                 </tr>
                                 <tr>
@@ -122,13 +143,6 @@ function ele_online_registration(){
                                 <tr>
                                     <td>TXN ID:</td>
                                     <td>{{registrant.ele_entry_txn_id}}</td>
-                                </tr>
-                                <tr>
-                                    <td>PACKAGE TYPE:</td>
-                                    <td>
-                                        <span ng-show="(registrant.ele_entry_package_type=='regular_package')">Regular Package</span>
-                                        <span ng-show="(registrant.ele_entry_package_type=='traveller_package')">Traveller Package</span>
-                                    </td>
                                 </tr>
                             </table>
                         </td>

@@ -184,8 +184,10 @@ class EleModel {
         $ele_entry_txn_id           = 'TEMP'.time().rand(0,10000);
         $ele_entry_status           = 0;
         $ele_entry_registration_date= date('d-F-Y g:i:s', time());
+        $need_bike                  = $entry['bike'];
+        $accomodation               = $entry['accommodation'];
 
-        $query = "INSERT INTO ".$dbcon->ele_entry." (ele_entry_team_name, ele_entry_category_name, ele_entry_email, ele_entry_invoice, ele_entry_txn_id, ele_entry_payment_method, ele_entry_package_type, ele_entry_status, ele_entry_registration_date) VALUES (:ele_entry_team_name, :ele_entry_category_name, :ele_entry_email, :ele_entry_invoice, :ele_entry_txn_id, :ele_entry_payment_method, :ele_entry_package_type, :ele_entry_status, :ele_entry_registration_date)";
+        $query = "INSERT INTO ".$dbcon->ele_entry." (ele_entry_team_name, ele_entry_category_name, ele_entry_email, ele_entry_invoice, ele_entry_txn_id, ele_entry_payment_method, ele_entry_package_type, ele_entry_status, ele_entry_registration_date, ele_entry_need_bike, ele_entry_accommodation) VALUES (:ele_entry_team_name, :ele_entry_category_name, :ele_entry_email, :ele_entry_invoice, :ele_entry_txn_id, :ele_entry_payment_method, :ele_entry_package_type, :ele_entry_status, :ele_entry_registration_date, :ele_entry_need_bike, :ele_entry_accommodation)";
 
         $dbcon->initiateConnection();
         $dbcon->query($query);
@@ -199,6 +201,8 @@ class EleModel {
         $dbcon->bindValue(':ele_entry_package_type', $package_mode);
         $dbcon->bindValue(':ele_entry_status', $ele_entry_status);
         $dbcon->bindValue(':ele_entry_registration_date', $ele_entry_registration_date);
+        $dbcon->bindValue(':ele_entry_need_bike', $need_bike);
+        $dbcon->bindValue(':ele_entry_accommodation', $accomodation);
 
         try {
 

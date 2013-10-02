@@ -73,3 +73,7 @@
 #wuField {
     display:none;
 }
+
+#general_fields_wrapper tr {
+    margin: 5px 0;
+}

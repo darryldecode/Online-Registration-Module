@@ -254,6 +254,27 @@ function ele_front_view_registration_form(){
                     </td>
                 </tr>
                 <tr>
+                    <td colspan="2">We strongly urge you to bring all of your own gear.  But if some of you need to rent a mountain bike please let us know as soon as possible so we can make arrangements.  All associated costs of this kind of rental must be the responsibility of the registrant.  It is not included in the registration fee.</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        &nbsp;&nbsp;&nbsp;<input type="radio" checked name="bike" value="yes"> Yes, I will need to rent a mountain bike<br>
+                        &nbsp;&nbsp;&nbsp;<input type="radio" name="bike" value="no"> No, I will not need to rent a mountain bike<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">If you are not registering through our travellers package will you want overnight accommodation on Samal Island the night after the race so you can participate more conveniently in the Rainbow Fun Run or just rest without having to travel again on race day? </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        &nbsp;&nbsp;&nbsp;<input type="radio" checked name="accommodation" value="yes"> Yes<br>
+                        &nbsp;&nbsp;&nbsp;<input type="radio" name="accommodation" value="no"> No<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>If your team wins the overall prize, which qualified Philippine mission, charity or NGO would you like the grand prize to be donated to?  If you don’t know of any we have listed some below that we can personally vouch for in terms of integrity, consistency and positive impact in their areas of work.  Each endorsed organization also embraces our philosophy of not just talking about issues but actually getting their hands dirty by being part of the solution.</b></td>
+                </tr>
+                <tr>
                     <td>CHOOSE PAYMENT METHOD:</td>
                     <td>
                         <input type="radio" checked name="payment_method" value="pp"> PayPal<br>
