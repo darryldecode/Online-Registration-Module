@@ -235,7 +235,7 @@ function ele_front_view_registration_form(){
         <div class="clearfix" id="general_fields_wrapper">
             <table>
                 <tr>
-                    <td>Team Name:</td>
+                    <td>Team Name (Optional):</td>
                     <td><input type="text" name="teamName" id="teamName" class="required"></td>
                 </tr>
                 <tr>
@@ -303,7 +303,7 @@ function ele_front_view_registration_form(){
                     <td colspan="2">
                         <div class="alert alert-info" style="text-align: center;">
                             <h3>Terms and Conditions:</h3>
-                            <a href="{{tosLink}}">Read »</a><br>
+                            <a target="_blank" href="{{tosLink}}">Read »</a><br>
                             <input type="checkbox" ng-model="tos" name="ele_tos" id="ele_tos"><strong> I have read and agree.</strong>
                         </div>
                     </td>

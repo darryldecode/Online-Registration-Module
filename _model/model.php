@@ -318,7 +318,7 @@ class EleModel {
         $headers .= "Content-type:text/html;charset=iso-8859-1" . "\r\n";
         $headers .= 'From: <'.$data['business'].'>' . "\r\n";
 
-        $reciept = "<h1>EMBRACE LIFE EVENT PAYMENT VERIFICATION (Western Union)</h1>";
+        $reciept = "<h1>EMBRACE LIFE EVENTS PAYMENT VERIFICATION (Western Union)</h1>";
         $reciept .= "<table>";
         $reciept .= "<tr>";
         $reciept .= "<td colspan='2'><h3>REGISTRATION INFO:</h3></td>";
@@ -332,9 +332,13 @@ class EleModel {
         $reciept .= "<td>".$data['amount']." ".$data['mc_currency']."</td>";
         $reciept .= "</tr>";
         $reciept .= "</table>";
-        $reciept .= "<p>Present this email/Invoice ID together with your western union payment details to <strong>".$data['business']."</strong> validate your payment.</p>";
+        $reciept .= "<p>You May Pay Your Registration Fee at nearest Western Union using the the following information below.<br>
+                    NAME: <strong>THOMAS M. MACINTOSH</strong><br>
+                    ADDRESS: <strong>#1 BLUEBELL ST. MIDLAND VILLAGE MAA, DAVAO CITY 8000 PHILIPPINES</strong><br>
+                    PHONE #: <strong>(+63) 918 520 2791</strong><br>
+                    After you have send the payment, Please email us the Invoice ID(found on this email) together with your western union payment details to <strong>".$data['business']."</strong> validate your payment.</p>";
 
-        $payment = "<h1>EMBRACE LIFE EVENTS PAYMENT DETAILS</h1><br>";
+        $payment = "<h1>EMBRACE LIFE EVENTS PAYMENT DETAILS (Western Union)</h1><br>";
         $payment .= "<strong>Notice:</strong>A registration via Western Union has been made By: ".$data['receiptEmail']."<br>";
         $payment .= "Below is the info of the Registrant.";
         $payment .= "<hr>";

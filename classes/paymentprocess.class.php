@@ -236,7 +236,7 @@ class eleProcessRecords {
         $headers .= "Content-type:text/html;charset=iso-8859-1" . "\r\n";
         $headers .= 'From: <'.$receiver_email.'>' . "\r\n";
 
-        $reciept = "<h1>EMBRACE LIFE EVENT PAYMENT RECIEPT</h1>";
+        $reciept = "<h1>EMBRACE LIFE EVENTS PAYMENT RECIEPT</h1>";
         $reciept .= "<table>";
         $reciept .= "<tr>";
         $reciept .= "<td colspan='2'>You have successfully paid to: ".$receiver_email."</td>";
@@ -261,7 +261,7 @@ class eleProcessRecords {
         $reciept .= "<td>".$invoice."</td>";
         $reciept .= "</tr>";
         $reciept .= "</table>";
-        $reciept .= "<p>Present this reciept to <strong>".$receiver_email."</strong> validate your payment.</p>";
+        $reciept .= "<p>Keep a copy of this email to keep track of your payment and registration. Bring this on the time of event.</p>";
 
         $payment = "<h1>EMBRACE LIFE EVENTS PAYMENT DETAILS</h1><br>";
         $payment .= "<strong>Notice:</strong> A payment has been made By: ".$payer_email."<br>";
